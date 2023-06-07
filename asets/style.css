@@ -1,0 +1,485 @@
+@font-face {
+    font-family: 'Black Widow Movie';
+    src: url(../black-widow-movie/BlackWidowMovie.ttf) format('truetype');
+font-style: normal;
+font-weight: normal;
+}
+
+body{
+
+background:url(imagenes/collage-peliculas-accion.jpg);
+
+width: 1200px;
+min-width: 450px;
+height: auto;
+
+}
+nav{
+width: 90%;
+margin-left: 5%;
+margin-right: 5%;
+background-color: white;
+box-shadow: 1px 1px 4px 1px black;
+
+}
+#BarraNav{
+color: black;
+font-weight: bold;
+
+
+}
+.iconoNav{
+
+    width: 50px;
+}
+body:before {
+position: absolute;
+content: "";
+width: 1210px;
+
+top: 0;
+left: 0;
+
+background-color: white;
+opacity: 0.6;
+height: 1240px;
+}
+header{
+    
+    width: 100%;
+    margin-top: 5px;
+height: 25%;
+
+text-align: center;
+font-size: 60px;
+font-family: 'Black Widow Movie';
+background-image: url(imagenes/cinta.png);
+
+background-repeat: repeat-x;
+color: grey;
+background-size: 40% 100% ;
+
+}
+.container{
+
+
+    position: absolute;
+}
+.contenido{
+
+
+width: 100%;
+height: auto;
+padding-left: 2%;
+padding-right: 2%;
+}
+.contenido section{
+
+box-shadow: 1px 1px 4px 1px black;
+margin: 20px;
+text-align: center;
+float: left;
+
+}
+
+
+
+
+.lista{
+
+width: 50%;
+height: 80%;
+text-align: center;
+
+background-repeat: no-repeat;
+background-image: url(imagenes/accion.webp);
+background-size: 100% 100%;
+
+}
+
+.tabla{
+   width: 100%;
+   height: auto;
+   
+border-left:  3px solid black;
+border-right: 3px solid black;
+
+
+}
+.contenido .lista h2{
+
+    font-family: 'Black Widow Movie';
+    font-size: 60px;
+    padding: 1.5%;
+color: red;
+
+}
+
+
+
+.contenido .formulario h2{
+
+    font-family: 'Black Widow Movie';
+    color: white;
+    margin-left: 10%;
+margin-right: 10%;
+width: 80%;
+
+}
+.contenido .formulario h5{
+
+   
+    color: white;
+}
+
+.formulario p{
+    margin-top: 2%;
+margin-bottom: -1%;
+color: yellow;
+
+}
+.ContenedoTabla{
+    width: 90%;
+    padding: 1%;
+  margin: 4%;
+}
+
+.tabla thead tr th{
+
+border-right: rgb(0, 0, 0) 2px solid ;
+margin: 1%;
+color: white;
+
+}
+
+
+.tabla tbody tr td{
+
+color: white;
+background-color: black;
+opacity: 0.7;
+}
+
+
+
+
+.formulario{
+background-image: url(imagenes/images.jfif);
+background-size: 100% 102%;
+background-repeat: no-repeat;
+
+width: 40%;
+height: 80%;
+text-align: center;
+padding: 2%;
+}
+.Modificar{
+right: 10%;
+
+
+}
+.Guardar{
+
+    left: 10%;
+}
+
+.formulario input{
+margin: 5px;
+width: 90%;
+background-color: transparent;
+border: none;
+outline: 0px;
+border-bottom: 2px solid black;
+
+}
+.formulario button{
+width: 37%;
+height: auto;
+margin: 10px;
+border: none;
+background-color:peachpuff;
+box-shadow: 1px 1px 2px 0px  ;
+padding: 1%;
+font-size: 18px;
+border-radius: 4px;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: 60%;
+    position:  absolute ;
+    top: 110%;
+left: 0;
+right: 0;
+    }
+   .logo{
+
+   width: 10%;
+   height: auto;
+   margin: 1%;
+   }
+
+footer section{
+ display: flex;
+    justify-content: center;
+    padding-top: 3%;
+
+}
+
+
+footer section ul li{
+    list-style: none;
+justify-content: center;
+text-align: center;
+}
+footer section ul h5{
+color: white;
+
+}
+footer section ul li a{
+    text-decoration: none;
+    font-size: 13px;
+}
+.red{
+width: 40px;
+height: auto;
+margin: 5px;
+
+}
+@media only screen and (max-width: 400px) {
+    body{
+    max-width: 400px;
+
+    }
+
+    body:before {
+        position: absolute;
+        content: "";
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 2500px;
+        background-color: white;
+        opacity: 0.6;
+        
+        }
+        .formulario {
+
+            width: 80%;
+    
+            }
+        .lista {
+
+         width:90% ;
+
+        }
+        .red{
+        width: 25px;
+
+        }
+        
+        
+}
+@media  screen and (min-width:401px) and (max-width:500px) {
+    body{
+
+    max-width: 500px;
+  min-height: 401px;
+    }
+
+    body:before {
+        position: absolute;
+        content: "";
+        width: 100%;
+        
+        top: 0;
+        left: 0;
+        height: 1680px;
+        background-color: white;
+        opacity: 0.6;
+        
+
+        }
+   
+   
+   header{
+   height: 50%;
+
+
+   }
+    .formulario{
+
+     width: 90%;
+
+    }
+    .lista{
+
+    width: 90%;
+
+    }
+    .ContenedoTabla{
+
+padding: 5%;
+
+    }
+    .tabla{
+    width: 70%;
+    height: auto;
+
+    }
+    footer{
+   width: 100%;
+    height: 32%;
+  
+    }
+    
+    footer section{
+   
+   width: 90%;
+   height: auto;
+ padding: 5%;
+    }
+}
+
+@media only screen and (min-width:501px) and (max-width:800px) {
+
+    body{
+
+        max-width: 800px;
+      min-height: 501px;
+        }
+
+    header{
+    height: 50%;
+
+
+    }
+    .formulario {
+
+        width: 90%;
+        
+            }
+
+     .lista{
+
+     width: 90%;
+     
+     }
+     
+     body:before {
+        position: absolute;
+        content: "";
+        width: 100%;
+        
+        top: 0;
+        left: 0;
+        height: 1545px;
+        background-color: white;
+        opacity: 0.6;
+        
+
+        }
+        footer{
+
+            height: 40%;
+        }
+
+
+
+}
+@media only screen and (min-width:801px) and (max-width: 900px) {
+    body{
+
+        max-width: 900px;
+      min-height: 801px;
+        }
+ 
+    body:before {
+        position: absolute;
+        content: "";
+        width: 100%;
+        
+        top: 0;
+        left: 0;
+        
+        background-color: white;
+        opacity: 0.6;
+        height: 1580px;
+
+        }
+
+.formulario{
+    width: 90%;
+}
+.lista{
+
+    width: 90%;
+}
+footer{
+
+height: 40%;
+
+}
+}
+@media only screen and (min-width:901px) and (max-width: 1000px) {
+
+    body:before {
+        position: absolute;
+        content: "";
+        width: 100%;
+        
+        top: 0;
+        left: 0;
+        
+        background-color: white;
+        opacity: 0.6;
+        height: 1580px;
+
+        }
+
+
+.formulario{
+width: 80%;
+right: 10%;
+left: 10%;
+}
+.lista{
+width: 80%;
+
+}
+footer{
+width: 100%;
+height: 50%;
+}
+
+
+}
+@media screen and (min-width:1001px) and (max-width: 1200px){
+.formulario{
+
+    width: 40%;
+}
+.lista{
+
+width: 50%;
+
+}
+
+body:before {
+    position: absolute;
+    content: "";
+    width: 1200px;
+    
+    top: 0;
+    left: 0;
+    
+    background-color: white;
+    opacity: 0.6;
+    height: 1242px;
+    }
+
+
+
+
+
+}
