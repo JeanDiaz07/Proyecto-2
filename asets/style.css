@@ -6,7 +6,7 @@ font-weight: normal;
 }
 
 body{
-
+ 
     background:url(imagenes/collage-peliculas-accion.jpg);
 
 width: 1200px;
@@ -206,7 +206,7 @@ border-radius: 4px;
 footer{
     background-color: black;
     width: 100%;
-    height: 70%;
+    padding: 2.5%;
     position:  absolute ;
     top: 110%;
 left: 0;
@@ -329,7 +329,7 @@ padding: 5%;
     }
     footer{
    width: 100%;
-    height: 32%;
+    height: 40%;
   
     }
     
